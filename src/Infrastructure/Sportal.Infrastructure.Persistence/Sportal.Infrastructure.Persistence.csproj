@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Sportal.Application\Sportal.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Sportal.Domain\Sportal.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Audit.EntityFramework.Core" Version="20.0.3" />
+    <PackageReference Include="Audit.EntityFramework.Identity.Core" Version="20.0.3" />
+    <PackageReference Include="Audit.Mvc.Core" Version="20.0.3" />
+    <PackageReference Include="Audit.NET.PostgreSql" Version="20.0.3" />
+    <PackageReference Include="Audit.WebApi.Core" Version="20.0.3" />
+    <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="6.1.2" />
+    <PackageReference Include="Duende.IdentityServer.EntityFramework" Version="6.1.2" />
+    <PackageReference Include="Duende.IdentityServer.Storage" Version="6.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.5" />
+    <PackageReference Include="TanvirArjel.EFCore.GenericRepository" Version="6.0.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisMode>Default</AnalysisMode>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
